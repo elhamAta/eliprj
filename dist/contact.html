@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+    <script src="./js/script.js" ></script>
+    <script src="./js/fifo.js"></script>
+</head>
+<body>
+    <p id="des">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Aspernatur dicta cum maiores necessitatibus hic exercitationem officiis
+         reprehenderit enim autem inventore, tenetur omnis non aut doloribus,
+          nesciunt harum vero voluptates praesentium?
+    </p>
+    <form class="form_contact" onsubmit="submitForm(event)">
+        <input type="text" name="username" placeholder="username" class="txt"">
+        <br>
+        <input type="password" name="password" placeholder="password" class="txt">
+        <br>
+        <button class="btn_contact">
+            Submit
+        </button>
+    </form>
+    <div id="counter">
+        0
+    </div>
+    <div id="buttons">
+        <button type="button" class="btn start" onclick="Start()">
+            Start
+        </button>
+        <button disabled type="button" class=" btn pause" onclick="Pause()">
+            Pause
+        </button>
+    </div>
+    
+</body>
+</html>
